@@ -17,10 +17,10 @@ export default function Tablayout() {
             tabBarStyle: {
                 backgroundColor: "black",
                 borderTopWidth: 0,
-                height: 40,
+                height: 50,
                 elevation: 0,
                 position: "absolute",
-                paddingBottom: 8
+                paddingBottom: 8,
             }
         }}>
             <Tabs.Screen name="index" options={{ tabBarIcon: ({ size, color }) => <Ionicons name='home' size={size} color={color} /> }} />
